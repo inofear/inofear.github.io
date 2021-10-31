@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>iNofear</title>
   
-  <subtitle>无畏个人博客</subtitle>
+  <subtitle>无畏BOLG</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
@@ -10,7 +10,7 @@
   <id>http://example.com/</id>
   
   <author>
-    <name>无畏</name>
+    <name>无尽</name>
     
   </author>
   
