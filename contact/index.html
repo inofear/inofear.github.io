@@ -482,7 +482,7 @@
         <p id="info"></p>
     </div>
                 <h2 id="畅所欲言"><a href="#畅所欲言" class="headerlink" title="畅所欲言"></a>畅所欲言</h2><hr>
-<p>在这里可以留下你的足迹，欢迎在下方留言，一起喜欢无畏吧！（请不要发表不当言论，小心作者顺着网线打你哦）</p>
+<p>欢迎在下方留言！（请不要发表不当言论，小心作者顺着网线打你哦）</p>
 <!-- <h2 id="友链"><a href="#友链" class="headerlink" title="友链"></a>友链</h2><hr>
 <p>Luckeyの友链信息</p>
 <p>博客名称: Luckeyの博客</p>
@@ -1006,8 +1006,7 @@ new Valine({
                     var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
                     var diff = t2 - t1;
                     var diffYears = Math.floor(diff / years);
-                    // var diffDays = Math.floor((diff / days) - diffYears * 365);
-                    var diffDays = Math.floor(diffYears * 365 - (diff / days));
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
                     var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
                     var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
                         minutes);
