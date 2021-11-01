@@ -1006,7 +1006,8 @@ new Valine({
                     var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
                     var diff = t2 - t1;
                     var diffYears = Math.floor(diff / years);
-                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    // var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffDays = Math.floor(diffYears * 365 - (diff / days));
                     var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
                     var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
                         minutes);
