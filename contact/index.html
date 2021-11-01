@@ -1007,7 +1007,7 @@ new Valine({
                     var diff = t2 - t1;
                     var diffYears = Math.floor(diff / years);
                     // var diffDays = Math.floor((diff / days) - diffYears * 365);
-                    var diffDays = Math.floor(diff / days)
+                    var diffDays = Math.ceil(diff / days);
 
                     var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
                     var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
@@ -1015,10 +1015,10 @@ new Valine({
                     var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
                         diffMinutes * minutes) / seconds);
                     if (startYear == todayYear) {
-                        console.log(1111)
-                        console.log(diff / days)
-                        console.log(999);
-                        console.log(diffYears * 365)
+                        // console.log(1111)
+                        // console.log(diff / days)
+                        // console.log(999);
+                        // console.log(diffYears * 365)
                         document.getElementById("year").innerHTML = todayYear;
                         document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
                             " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
