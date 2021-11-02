@@ -324,6 +324,11 @@ header .button-collapse i {
 
 header .side-nav .mobile-head {
     padding: 0 15px;
+    padding-top: 7px;
+    height: 240px;
+    background-image: url("../imgs/head.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 header .side-nav .mobile-head img {
@@ -333,12 +338,14 @@ header .side-nav .mobile-head img {
 }
 
 header .side-nav .mobile-head .logo-name {
+    display: none;
     margin-top: -30px;
     padding-left: 10px;
     font-size: 1.5rem;
 }
 
 header .side-nav .mobile-head .logo-desc {
+    display: none;
     margin-top: -10px;
     padding-left: 10px;
     padding-bottom: 10px;
