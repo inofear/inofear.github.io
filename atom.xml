@@ -6,7 +6,7 @@
   <link href="http://inofear.cn/atom.xml" rel="self"/>
   
   <link href="http://inofear.cn/"/>
-  <updated>2021-11-02T14:18:27.991Z</updated>
+  <updated>2021-11-02T14:53:36.365Z</updated>
   <id>http://inofear.cn/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://inofear.cn/posts/0.html"/>
-    <id>http://inofear.cn/posts/0.html</id>
-    <published>2021-10-29T13:08:40.013Z</published>
-    <updated>2021-11-02T14:18:27.991Z</updated>
+    <title>标题（分类三）</title>
+    <link href="http://inofear.cn/posts/d74d8b76.html"/>
+    <id>http://inofear.cn/posts/d74d8b76.html</id>
+    <published>2020-09-16T16:00:00.000Z</published>
+    <updated>2021-11-02T14:53:36.365Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3>]]></content>
     
     
       
@@ -33,6 +33,12 @@
     
     
     
+    <category term="分类三" scheme="http://inofear.cn/categories/%E5%88%86%E7%B1%BB%E4%B8%89/"/>
+    
+    
+    <category term="关键字一" scheme="http://inofear.cn/tags/%E5%85%B3%E9%94%AE%E5%AD%97%E4%B8%80/"/>
+    
+    <category term="关键字二" scheme="http://inofear.cn/tags/%E5%85%B3%E9%94%AE%E5%AD%97%E4%BA%8C/"/>
     
   </entry>
   
@@ -147,7 +153,7 @@
     <link href="http://inofear.cn/posts/e3e08109.html"/>
     <id>http://inofear.cn/posts/e3e08109.html</id>
     <published>2019-08-27T03:41:03.000Z</published>
-    <updated>2021-11-02T14:17:56.646Z</updated>
+    <updated>2021-11-02T14:54:02.281Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="0x001-效果演示"><a href="#0x001-效果演示" class="headerlink" title="0x001 效果演示"></a>0x001 效果演示</h2><hr><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://s2.ax1x.com/2020/03/11/8E3bBF.png" alt="演示Demo"></p><h2 id="0x002-简单介绍"><a href="#0x002-简单介绍" class="headerlink" title="0x002 简单介绍"></a>0x002 简单介绍</h2><hr><p>  自动发货是在国防大学受到广泛所广泛化工斯蒂芬规划局返回给</p><hr>]]></content>
     
