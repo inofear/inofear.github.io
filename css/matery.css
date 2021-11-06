@@ -395,6 +395,7 @@ header .side-nav .social-link {
 }
 
 .cover-btns a {
+    opacity: 0.5;
     margin: 10px 15px;
     padding: 0 35px;
     height: 45px;
@@ -596,6 +597,7 @@ header .go-back i {
 }
 
 .bg-cover .title {
+    opacity: 0.5;
     font-size: 4rem;
     line-height: 1.2em;
     margin-bottom: 20px;
@@ -604,6 +606,7 @@ header .go-back i {
 }
 
 .bg-cover .description {
+    opacity: 0.5;
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
