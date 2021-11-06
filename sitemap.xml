@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://inofear.cn/posts/e3e08109.html</loc>
+    
+    <lastmod>2021-11-06</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://inofear.cn/posts/7a46f93c.html</loc>
     
     <lastmod>2021-11-06</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>http://inofear.cn/posts/19d2a4e6.html</loc>
-    
-    <lastmod>2021-11-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://inofear.cn/posts/e3e08109.html</loc>
     
     <lastmod>2021-11-06</lastmod>
     
@@ -270,13 +270,6 @@
   </url>
   
   <url>
-    <loc>http://inofear.cn/tags/%E5%85%B3%E9%94%AE%E5%AD%97%E4%B8%89/</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://inofear.cn/tags/%E5%85%B3%E9%94%AE%E5%AD%972/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
@@ -299,20 +292,6 @@
   
   <url>
     <loc>http://inofear.cn/tags/%E5%85%B3%E9%94%AE%E5%AD%97%E7%9A%84/</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://inofear.cn/tags/%E5%85%B3%E9%94%AE%E5%AD%97%E7%BB%99/</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://inofear.cn/tags/%E5%85%B3%E9%94%AE%E5%AD%97/</loc>
     <lastmod>2021-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
