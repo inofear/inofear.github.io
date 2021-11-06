@@ -6,7 +6,7 @@
   <link href="http://inofear.cn/atom.xml" rel="self"/>
   
   <link href="http://inofear.cn/"/>
-  <updated>2021-11-06T05:33:31.191Z</updated>
+  <updated>2021-11-06T09:46:09.250Z</updated>
   <id>http://inofear.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://inofear.cn/posts/19d2a4e6.html"/>
     <id>http://inofear.cn/posts/19d2a4e6.html</id>
     <published>2021-11-05T15:00:00.000Z</published>
-    <updated>2021-11-06T05:33:31.191Z</updated>
+    <updated>2021-11-06T09:46:09.250Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>  以下数据均来源于作者能力范围内寻找到的官方赛事数据，如有遗漏或者错误，可私信微博“胖达的爹”进行补充或者修正。（英雄按出场方式排序）</p><hr><h2 id="上单位置：1场1胜-emsp-胜率100-emsp-MVP0"><a href="#上单位置：1场1胜-emsp-胜率100-emsp-MVP0" class="headerlink" title="上单位置：1场1胜 胜率100% MVP0"></a>上单位置：1场1胜 胜率100% MVP0</h2><h3 id="关羽：1场1胜-emsp-胜率100-emsp-MVP0"><a href="#关羽：1场1胜-emsp-胜率100-emsp-MVP0" class="headerlink" title="关羽：1场1胜 胜率100% MVP0"></a>关羽：1场1胜 胜率100% MVP0</h3><hr>]]></content>
     
@@ -36,9 +36,9 @@
     <category term="赛事数据" scheme="http://inofear.cn/categories/%E8%B5%9B%E4%BA%8B%E6%95%B0%E6%8D%AE/"/>
     
     
-    <category term="昆山KSSC无畏" scheme="http://inofear.cn/tags/%E6%98%86%E5%B1%B1KSSC%E6%97%A0%E7%95%8F/"/>
+    <category term="昆山KSSC时期" scheme="http://inofear.cn/tags/%E6%98%86%E5%B1%B1KSSC%E6%97%B6%E6%9C%9F/"/>
     
-    <category term="无畏的关羽" scheme="http://inofear.cn/tags/%E6%97%A0%E7%95%8F%E7%9A%84%E5%85%B3%E7%BE%BD/"/>
+    <category term="关羽" scheme="http://inofear.cn/tags/%E5%85%B3%E7%BE%BD/"/>
     
   </entry>
   
@@ -147,11 +147,11 @@
   </entry>
   
   <entry>
-    <title>标题</title>
+    <title>昆山KSSC时期无畏各英雄胜率统计</title>
     <link href="http://inofear.cn/posts/e3e08109.html"/>
     <id>http://inofear.cn/posts/e3e08109.html</id>
-    <published>2019-08-27T03:41:03.000Z</published>
-    <updated>2021-11-02T14:54:02.281Z</updated>
+    <published>2019-08-09T03:41:03.000Z</published>
+    <updated>2021-11-06T09:46:57.946Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="0x001-效果演示"><a href="#0x001-效果演示" class="headerlink" title="0x001 效果演示"></a>0x001 效果演示</h2><hr><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://s2.ax1x.com/2020/03/11/8E3bBF.png" alt="演示Demo"></p><h2 id="0x002-简单介绍"><a href="#0x002-简单介绍" class="headerlink" title="0x002 简单介绍"></a>0x002 简单介绍</h2><hr><p>  自动发货是在国防大学受到广泛所广泛化工斯蒂芬规划局返回给</p><hr>]]></content>
     
@@ -163,14 +163,14 @@
     
     
     
-    <category term="分类一" scheme="http://inofear.cn/categories/%E5%88%86%E7%B1%BB%E4%B8%80/"/>
+    <category term="赛事数据" scheme="http://inofear.cn/categories/%E8%B5%9B%E4%BA%8B%E6%95%B0%E6%8D%AE/"/>
     
-    
-    <category term="关键字一" scheme="http://inofear.cn/tags/%E5%85%B3%E9%94%AE%E5%AD%97%E4%B8%80/"/>
     
     <category term="关键字二" scheme="http://inofear.cn/tags/%E5%85%B3%E9%94%AE%E5%AD%97%E4%BA%8C/"/>
     
     <category term="关键字三" scheme="http://inofear.cn/tags/%E5%85%B3%E9%94%AE%E5%AD%97%E4%B8%89/"/>
+    
+    <category term="昆山KSSC时期" scheme="http://inofear.cn/tags/%E6%98%86%E5%B1%B1KSSC%E6%97%B6%E6%9C%9F/"/>
     
   </entry>
   
