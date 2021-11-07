@@ -154,7 +154,7 @@ $(function () {
     	
 	$(".nav-menu>li").hover(function(){
 		$(this).children('ul').stop(true,true).show();
-		 $(this).addClass('nav-show').siblings('li').removeClass('nav-show');
+		$(this).addClass('nav-show').siblings('li').removeClass('nav-show');
 		
 	},function(){
 		$(this).children('ul').stop(true,true).hide();
