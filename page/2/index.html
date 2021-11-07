@@ -361,62 +361,9 @@
 </header>
 
     
-<style>
-    .carousel-control {
-        width: 45px;
-        height: 45px;
-        line-height: 55px;
-        border-radius: 45px;
-        background: transparent;
-        cursor: pointer;
-        z-index: 100;
-    }
-
-    #prev-cover {
-        position: absolute;
-        top: 48%;
-        left: 8px;
-    }
-
-    #next-cover {
-        position: absolute;
-        top: 48%;
-        right: 8px;;
-    }
-
-    #prev-cover i {
-        margin-right: 3px;
-    }
-
-    #next-cover i {
-        margin-left: 3px;
-    }
-
-    .carousel-control:hover {
-        background-color: rgba(0, 0, 0, .4);
-    }
-
-    .carousel-control i {
-        color: #fff;
-        font-size: 2.4rem;
-    }
-</style>
-
-
-
-<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
-    
-        <div id="prev-cover" class="left waves-effect carousel-control">
-            <i class="icon fa fa-angle-left"></i>
-        </div>
-        <div id="next-cover" class="right waves-effect carousel-control">
-            <i class="icon fa fa-angle-right"></i>
-        </div>
-    
-
-    <div class="carousel-item red white-text bg-cover about-cover">
-        <div class="container">
-            <div class="row">
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
@@ -451,281 +398,12 @@
 </script>
 
 
-
-            <div class="cover-btns">
-                <a href="#articles" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>开始阅读
-                </a>
-
-                
-            </div>
-            <div class="cover-social-link">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-        </div>
     </div>
-
-    
-        
-
-        
-            
-            <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('https://cdn.jsdelivr.net/gh/inofear/imgbed/banner/7.jpg');">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s10 offset-s1">
-                            <div class="title center-align">无畏职业生涯各英雄胜率统计</div>
-                            <div class="description center-align">
-                                
-                                    仅统计官方赛事数据
-                                
-                            </div>
-                            <div class="cover-btns">
-                                <a href="/posts/19d2a4e6.html" class="waves-effect waves-light btn"
-                                   target="_blank">
-                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            
-            <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('https://cdn.jsdelivr.net/gh/inofear/imgbed/FMVP01.JPG');">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s10 offset-s1">
-                            <div class="title center-align">无畏的第一个FMVP!</div>
-                            <div class="description center-align">
-                                
-                                    Nofear勇夺2020KPLGT春季赛总决赛FMVP!
-                                
-                            </div>
-                            <div class="cover-btns">
-                                <a href="/posts/17fd92ae.html" class="waves-effect waves-light btn"
-                                   target="_blank">
-                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            
-            <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('https://cdn.jsdelivr.net/gh/inofear/imgbed/banner/6.JPG');">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s10 offset-s1">
-                            <div class="title center-align">昆山KSSC时期无畏各英雄胜率统计</div>
-                            <div class="description center-align">
-                                
-                                    仅统计官方赛事数据
-                                
-                            </div>
-                            <div class="cover-btns">
-                                <a href="/posts/e3e08109.html" class="waves-effect waves-light btn"
-                                   target="_blank">
-                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-    
 </div>
-
-<script>
-    $(function () {
-        let coverSlider = $('.carousel');
-
-        //用户触摸轮播自动 restartPlay 是否生效
-        let initUserPressedOrDraggedActive = false
-
-        //用户触摸轮播自动 restartPlay
-        function initUserPressedOrDragged(instance) {
-            setInterval(() => {
-                if (instance.pressed || instance.dragged) {
-                    // console.log('initUserPressedOrDragged: ',instance.pressed,instance.dragged)
-                    restartPlay()
-                }
-            }, 1000)
-        }
-
-        coverSlider.carousel({
-            duration: Number('100'),
-            fullWidth: true,
-            indicators: 'true' === 'true',
-            onCycleTo() {
-                if (!initUserPressedOrDraggedActive) {
-                    // console.log('initUserPressedOrDraggedActive')
-                    initUserPressedOrDragged(this)
-                    initUserPressedOrDraggedActive = true
-                }
-            },
-        })
-
-        let carouselIntervalId;
-        
-        // Loop to call the next cover article picture.
-        let autoCarousel = function () {
-            carouselIntervalId = setInterval(function () {
-                coverSlider.carousel('next');
-            }, 5000);
-        };
-        autoCarousel();
-        
-
-        function restartPlay() {
-            
-            clearInterval(carouselIntervalId);
-            autoCarousel();
-            
-        };
-
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
-        
-    });
-</script>
-
 
 
 <main class="content">
 
-    
-    <div id="indexCard" class="index-card">
-        <div class="container ">
-            <div class="card">
-                <div class="card-content">
-                    
-
-                    
-
-                    
-
-                    
-                    <div id="recommend-sections" class="recommend">
-                        
-
-
-
-
-
-<div class="title"><i class="far fa-thumbs-up"></i>&nbsp;&nbsp;推荐文章</div>
-
-<div class="row">
-
-    
-    
-    <div class="col s12" >
-        
-             <div class="post-card" style="background-image: url('https://cdn.jsdelivr.net/gh/inofear/imgbed/all-win/all-win-bg.jpg')">
-        
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                            <a href="/categories/%E8%B5%9B%E4%BA%8B%E6%95%B0%E6%8D%AE/" class="category">赛事数据</a>
-                        
-                    
-                </div>
-                <a href="/posts/19d2a4e6.html">
-                    <h3 class="post-title">无畏职业生涯各英雄胜率统计</h3>
-                </a>
-                <p class="post-description">仅统计官方赛事数据</p>
-                <a href="/posts/19d2a4e6.html" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="col s12 m6" data-aos="zoom-in-up">
-        
-             <div class="post-card" style="background-image: url('https://cdn.jsdelivr.net/gh/inofear/imgbed/weibo/2020-05-19_00.PNG')">
-        
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                            <a href="/categories/%E5%BE%AE%E5%8D%9A%E5%8A%A8%E6%80%81/" class="category">微博动态</a>
-                        
-                    
-                </div>
-                <a href="/posts/17fd92ae.html">
-                    <h3 class="post-title">无畏的第一个FMVP!</h3>
-                </a>
-                <p class="post-description">Nofear勇夺2020KPLGT春季赛总决赛FMVP!</p>
-                <a href="/posts/17fd92ae.html" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="col s12 m6" data-aos="zoom-in-up">
-        
-             <div class="post-card" style="background-image: url('https://cdn.jsdelivr.net/gh/inofear/imgbed/KSSC/show.PNG')">
-        
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                            <a href="/categories/%E8%B5%9B%E4%BA%8B%E6%95%B0%E6%8D%AE/" class="category">赛事数据</a>
-                        
-                    
-                </div>
-                <a href="/posts/e3e08109.html">
-                    <h3 class="post-title">昆山KSSC时期无畏各英雄胜率统计</h3>
-                </a>
-                <p class="post-description">仅统计官方赛事数据</p>
-                <a href="/posts/e3e08109.html" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #1AD6FD 0%, #1D62F0 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
-    
-
-</div>
-
-
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
     
 
     
@@ -736,50 +414,12 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/posts/2b36786b.html">
+                    <a href="/posts/e3e08109.html">
                         <div class="card-image">
                             
-                            <img src="https://cdn.jsdelivr.net/gh/inofear/imgbed/weibo/2019-09-16_00.PNG" class="responsive-img" alt="测试文章">
+                            <img src="https://cdn.jsdelivr.net/gh/inofear/imgbed/KSSC/show.PNG" class="responsive-img" alt="昆山KSSC时期无畏各英雄胜率统计">
                             
-                            <span class="card-title">测试文章</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                骄傲的七某人庆祝自己的巅峰赛第一。
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-07
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E5%BE%AE%E5%8D%9A%E5%8A%A8%E6%80%81/" class="post-category">
-                                    微博动态
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/19d2a4e6.html">
-                        <div class="card-image">
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/inofear/imgbed/all-win/all-win-bg.jpg" class="responsive-img" alt="无畏职业生涯各英雄胜率统计">
-                            
-                            <span class="card-title">无畏职业生涯各英雄胜率统计</span>
+                            <span class="card-title">昆山KSSC时期无畏各英雄胜率统计</span>
                         </div>
                     </a>
 
@@ -791,7 +431,7 @@
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-05
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-08-09
                             </span>
                             <span class="publish-author">
                                 
@@ -813,187 +453,7 @@
                             <span class="chip bg-color">昆山KSSC时期</span>
                         </a>
                         
-                        <a href="/tags/%E5%85%B3%E7%BE%BD/">
-                            <span class="chip bg-color">关羽</span>
-                        </a>
-                        
                     </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/d74d8b76.html">
-                        <div class="card-image">
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/inofear/imgbed/weibo/2020-05-29_00.PNG" class="responsive-img" alt="来自国服最强镜姐的骄傲">
-                            
-                            <span class="card-title">来自国服最强镜姐的骄傲</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                无畏：这就是成功人士
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-29
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E5%BE%AE%E5%8D%9A%E5%8A%A8%E6%80%81/" class="post-category">
-                                    微博动态
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/GOG-Nofear/">
-                            <span class="chip bg-color">GOG.Nofear</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/17fd92ae.html">
-                        <div class="card-image">
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/inofear/imgbed/weibo/2020-05-19_00.PNG" class="responsive-img" alt="无畏的第一个FMVP!">
-                            
-                            <span class="card-title">无畏的第一个FMVP!</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Nofear勇夺2020KPLGT春季赛总决赛FMVP!
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E5%BE%AE%E5%8D%9A%E5%8A%A8%E6%80%81/" class="post-category">
-                                    微博动态
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/GOG-Nofear/">
-                            <span class="chip bg-color">GOG.Nofear</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/4b3510a4.html">
-                        <div class="card-image">
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/inofear/imgbed/weibo/2020-04-28_00.PNG" class="responsive-img" alt="时隔半年无畏的第二条微博">
-                            
-                            <span class="card-title">时隔半年无畏的第二条微博</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                帅哥的自拍令人捉摸不透
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-28
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E5%BE%AE%E5%8D%9A%E5%8A%A8%E6%80%81/" class="post-category">
-                                    微博动态
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E8%87%AA%E6%8B%8D/">
-                            <span class="chip bg-color">自拍</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/7a46f93c.html">
-                        <div class="card-image">
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/inofear/imgbed/weibo/2019-09-16_00.PNG" class="responsive-img" alt="无畏的第一条微博！">
-                            
-                            <span class="card-title">无畏的第一条微博！</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                骄傲的七某人庆祝自己的巅峰赛第一。
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-09-16
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E5%BE%AE%E5%8D%9A%E5%8A%A8%E6%80%81/" class="post-category">
-                                    微博动态
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
                     
                 </div>
             </div>
@@ -1008,18 +468,18 @@
     <div class="row">
         <div class="col s6 m4 l4">
             
-            <a class="left btn-floating btn-large disabled">
+            <a href="/"
+               class="left btn-floating btn-large waves-effect waves-light bg-color">
                 <i class="fas fa-angle-left"></i>
             </a>
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">1 / 2</div>
+            <div class="center-align b-text-gray">2 / 2</div>
         </div>
         <div class="col s6 m4 l4">
             
-            <a href="/page/2/"
-               class="right btn-floating btn-large waves-effect waves-light bg-color">
+            <a class="right btn-floating btn-large disabled">
                 <i class="fas fa-angle-right"></i>
             </a>
             
