@@ -6,7 +6,7 @@
   <link href="http://inofear.cn/atom.xml" rel="self"/>
   
   <link href="http://inofear.cn/"/>
-  <updated>2021-11-06T11:33:11.947Z</updated>
+  <updated>2021-11-08T11:40:07.269Z</updated>
   <id>http://inofear.cn/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>title</title>
+    <link href="http://inofear.cn/posts/2b36786b.html"/>
+    <id>http://inofear.cn/posts/2b36786b.html</id>
+    <published>2021-11-08T11:40:07.000Z</published>
+    <updated>2021-11-08T11:40:07.269Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>无畏职业生涯各英雄胜率统计</title>
