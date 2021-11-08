@@ -264,7 +264,9 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -290,7 +292,7 @@
                       <div class="moleskine-notebook">
                           <div class="chip notebook-cover center-align waves-effect waves-light
                            chip-active "
-                                  style="background-color: #532E3E;">                                               
+                                  style="background-color: #1D4463;">                                               
                               <div class="notebook-skin
                                    chip-active "
                                   >赛事数据                                  
@@ -307,7 +309,7 @@
                       <div class="moleskine-notebook">
                           <div class="chip notebook-cover center-align waves-effect waves-light
                            chip-default "
-                                  style="background-color: #87C4FF;">                                               
+                                  style="background-color: #2266F1;">                                               
                               <div class="notebook-skin
                                    chip-default "
                                   >微博动态                                  
