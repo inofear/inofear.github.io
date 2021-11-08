@@ -2,20 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://inofear.cn/posts/2b36786b.html</loc>
-    
-    <lastmod>2021-11-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://inofear.cn/posts/2b36786b.html</loc>
-    
-    <lastmod>2021-11-08</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://inofear.cn/posts/d74d8b76.html</loc>
     
     <lastmod>2021-11-08</lastmod>
@@ -23,7 +9,14 @@
   </url>
   
   <url>
-    <loc>http://inofear.cn/posts/17fd92ae.html</loc>
+    <loc>http://inofear.cn/posts/19d2a4e6.html</loc>
+    
+    <lastmod>2021-11-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://inofear.cn/posts/e3e08109.html</loc>
     
     <lastmod>2021-11-08</lastmod>
     
@@ -44,16 +37,23 @@
   </url>
   
   <url>
-    <loc>http://inofear.cn/posts/e3e08109.html</loc>
+    <loc>http://inofear.cn/posts/17fd92ae.html</loc>
     
-    <lastmod>2021-11-07</lastmod>
+    <lastmod>2021-11-08</lastmod>
     
   </url>
   
   <url>
-    <loc>http://inofear.cn/posts/19d2a4e6.html</loc>
+    <loc>http://inofear.cn/posts/2b36786b.html</loc>
     
-    <lastmod>2021-11-06</lastmod>
+    <lastmod>2021-11-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://inofear.cn/posts/2b36786b.html</loc>
+    
+    <lastmod>2021-11-08</lastmod>
     
   </url>
   
@@ -270,13 +270,6 @@
 
   
   <url>
-    <loc>http://inofear.cn/tags/%E6%98%86%E5%B1%B1KSSC%E6%97%B6%E6%9C%9F/</loc>
-    <lastmod>2021-11-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://inofear.cn/tags/%E5%85%B3%E7%BE%BD/</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>daily</changefreq>
@@ -292,6 +285,27 @@
   
   <url>
     <loc>http://inofear.cn/tags/GOG-Nofear/</loc>
+    <lastmod>2021-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://inofear.cn/tags/%E6%98%86%E5%B1%B1KSSC-%E6%97%A0%E7%95%8F/</loc>
+    <lastmod>2021-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://inofear.cn/tags/GOG-NoFear/</loc>
+    <lastmod>2021-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://inofear.cn/tags/%E5%8D%97%E4%BA%AChero%E6%97%A0%E7%95%8F/</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
