@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>测试文章</title>
-      <link href="posts/2b36786b.html"/>
-      <url>posts/2b36786b.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/inofear/imgbed/weibo/2019-09-16_00.PNG" alt="微博正文"><br><img src="https://cdn.jsdelivr.net/gh/inofear/imgbed/weibo/2019-09-16_01.JPG" alt="微博图片"></p><p>  无畏的第一条微博！点击<a href="https://m.weibo.cn/6600091395/4417234707108234">这里</a>查看详情</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 微博动态 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>无畏职业生涯各英雄胜率统计</title>
       <link href="posts/19d2a4e6.html"/>
       <url>posts/19d2a4e6.html</url>
@@ -44,6 +25,25 @@
             <tag> 关羽 </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>想劈叉的NoFear</title>
+      <link href="posts/2b36786b.html"/>
+      <url>posts/2b36786b.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/inofear/imgbed/weibo/2020-07-24_00.PNG" alt="微博正文"><br><img src="https://cdn.jsdelivr.net/gh/inofear/imgbed/weibo/2020-07-24_01.PNG" alt="微博图片"></p><p>  点击<a href="https://m.weibo.cn/6600091395/4530278402104327">这里</a>查看详情</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 微博动态 </category>
+          
+      </categories>
+      
       
     </entry>
     
