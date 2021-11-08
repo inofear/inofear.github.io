@@ -264,7 +264,9 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -311,10 +313,10 @@
                 </a>
                 
                 
-                <a href="/tags/GOG-NoFear/" title="GOG NoFear: 5">
+                <a href="/tags/GOG-Nofear/" title="GOG.Nofear: 5">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="GOG NoFear" style="background-color: #E8F8F5;">GOG NoFear
+                            data-tagname="GOG.Nofear" style="background-color: #E8F8F5;">GOG.Nofear
                         <span class="tag-length">5</span>
                     </span>
                 </a>
@@ -339,7 +341,7 @@
         <div class="row tags-posts">
             
             
-            <div class="article tag-post col s12 m6 l4" data-tags="自拍, GOG NoFear" data-aos="fade-up">
+            <div class="article tag-post col s12 m6 l4" data-tags="自拍, GOG.Nofear" data-aos="fade-up">
                 <div class="card">
                     <a href="/posts/4b3510a4.html">
                         <div class="card-image tag-image">
@@ -445,7 +447,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">303</span>&nbsp;字
+                class="white-color">295</span>&nbsp;字
             
             
             

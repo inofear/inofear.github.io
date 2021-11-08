@@ -264,7 +264,9 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -290,7 +292,7 @@
                       <div class="moleskine-notebook">
                           <div class="chip notebook-cover center-align waves-effect waves-light
                            chip-default "
-                                  style="background-color: #4E0966;">                                               
+                                  style="background-color: #843173;">                                               
                               <div class="notebook-skin
                                    chip-default "
                                   >赛事数据                                  
@@ -307,7 +309,7 @@
                       <div class="moleskine-notebook">
                           <div class="chip notebook-cover center-align waves-effect waves-light
                            chip-default "
-                                  style="background-color: #C54B62;">                                               
+                                  style="background-color: #14F8D3;">                                               
                               <div class="notebook-skin
                                    chip-default "
                                   >微博动态                                  
@@ -565,7 +567,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">303</span>&nbsp;字
+                class="white-color">295</span>&nbsp;字
             
             
             
