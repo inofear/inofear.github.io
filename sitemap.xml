@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://inofear.cn/posts/84bc3465.html</loc>
+    
+    <lastmod>2021-11-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://inofear.cn/posts/a7ae5d2c.html</loc>
     
     <lastmod>2021-11-08</lastmod>
@@ -284,6 +291,13 @@
 
   
   <url>
+    <loc>http://inofear.cn/tags/KSSC-%E6%97%A0%E7%95%8F/</loc>
+    <lastmod>2021-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://inofear.cn/tags/%E5%85%B3%E7%BE%BD/</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>daily</changefreq>
@@ -299,13 +313,6 @@
   
   <url>
     <loc>http://inofear.cn/tags/GOG-NoFear/</loc>
-    <lastmod>2021-11-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://inofear.cn/tags/KSSC-%E6%97%A0%E7%95%8F/</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
