@@ -264,9 +264,7 @@
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
 </script>
 
 
@@ -292,7 +290,7 @@
                       <div class="moleskine-notebook">
                           <div class="chip notebook-cover center-align waves-effect waves-light
                            chip-default "
-                                  style="background-color: #18DEF3;">                                               
+                                  style="background-color: #6809A1;">                                               
                               <div class="notebook-skin
                                    chip-default "
                                   >赛事数据                                  
@@ -304,12 +302,12 @@
                 </a>
                 
                 
-                <a href="/categories/%E5%BE%AE%E5%8D%9A%E5%8A%A8%E6%80%81/" title="微博动态: 22">
+                <a href="/categories/%E5%BE%AE%E5%8D%9A%E5%8A%A8%E6%80%81/" title="微博动态: 23">
                   <div class="moleskine-wrapper">
                       <div class="moleskine-notebook">
                           <div class="chip notebook-cover center-align waves-effect waves-light
                            chip-default "
-                                  style="background-color: #FE01E9;">                                               
+                                  style="background-color: #B97D49;">                                               
                               <div class="notebook-skin
                                    chip-default "
                                   >微博动态                                  
@@ -472,7 +470,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"赛事数据","max":24},{"name":"微博动态","max":24}],
+            indicator: [{"name":"赛事数据","max":25},{"name":"微博动态","max":25}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -483,7 +481,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [2,22],
+                    value : [2,23],
                     name : '文章分类数量'
                 }
             ]
@@ -567,7 +565,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">490</span>&nbsp;字
+                class="white-color">505</span>&nbsp;字
             
             
             
