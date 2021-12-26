@@ -255,7 +255,7 @@
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: ['无畏就是无畏！','Nofear will never fear！'],
+                        strings: ['仅以此纪念无畏宝贵的职业生涯！','Nofear will never fear！'],
                         startDelay: 10,
                         typeSpeed: 100,
                         loop: true,
@@ -271,7 +271,9 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -382,7 +384,7 @@
                     </div>
                 </div>
 
-                <div class="introduction center-align" data-aos="fade-up">用代码创造一个无畏的小世界</div>
+                <div class="introduction center-align" data-aos="fade-up">以此纪念无畏宝贵的职业生涯</div>
 
                 <style type="text/css">
     #posts-chart,

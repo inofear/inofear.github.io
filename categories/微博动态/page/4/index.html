@@ -248,7 +248,7 @@
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: ['无畏就是无畏！','Nofear will never fear！'],
+                        strings: ['仅以此纪念无畏宝贵的职业生涯！','Nofear will never fear！'],
                         startDelay: 10,
                         typeSpeed: 100,
                         loop: true,
@@ -264,7 +264,9 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -290,7 +292,7 @@
                       <div class="moleskine-notebook">
                           <div class="chip notebook-cover center-align waves-effect waves-light
                            chip-default "
-                                  style="background-color: #8DF12C;">                                               
+                                  style="background-color: #7BF8B4;">                                               
                               <div class="notebook-skin
                                    chip-default "
                                   >赛事数据                                  
@@ -307,7 +309,7 @@
                       <div class="moleskine-notebook">
                           <div class="chip notebook-cover center-align waves-effect waves-light
                            chip-active "
-                                  style="background-color: #E05BB0;">                                               
+                                  style="background-color: #0990B4;">                                               
                               <div class="notebook-skin
                                    chip-active "
                                   >微博动态                                  
